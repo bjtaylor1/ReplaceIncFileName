@@ -17,6 +17,8 @@ namespace ReplaceIncFileName
             }
             else
             {
+                find = args[0];
+                replace = args[1];
                 ReplaceInDirectory(new DirectoryInfo(Environment.CurrentDirectory));
             }
 
